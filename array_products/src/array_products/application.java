@@ -29,7 +29,8 @@ public class application {
 		}
 		
 		for (int i = 0; i < vect.length; i++) {
-			System.out.println(i+1 + "st Product: " + vect[i].getName() + "\nPrice: $" + vect[i].getPrice());
+			int count = i+1;
+			System.out.println(count + "st Product: " + vect[i].getName() + "\nPrice: $" + vect[i].getPrice());
 			
 		}
 		
